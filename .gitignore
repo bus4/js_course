@@ -1,0 +1,54 @@
+#ignore target dir
+target*/
+
+#*.orig
+#
+# Eclipse project files
+#
+#.classpath
+#.project
+#.settings*/
+.springBeans
+.metadata/
+war*/
+
+#libs for eclipse plugin - copied by maven
+components_plugin/lib/
+
+#
+# IntelliJ IDEA project files
+#
+.idea*/
+.classes*/
+*.ipr
+*.iml
+*.iws
+*.ids
+scripts*/
+atlassian-ide-plugin.xml
+
+#ignore NetBeans project files
+nb-configuration.xml
+profiles.xml
+catalog.xml
+nbactions.xml
+
+#ignore some temporary files
+*.vpp~*
+
+#ignore os meta files
+Thumbs.db
+.DS_Store
+
+#ignore some log files
+script/*.log
+
+*.backup
+#gradle files
+
+.gradle*/
+pom.xml.versionsBackup
+
+run.osgi
+
+tmp/
